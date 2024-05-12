@@ -1,0 +1,163 @@
+/* styles for practical 2 csc293 group1 */ 
+
+.container {
+    margin: 5em;
+    padding: 5em;
+    border: 0.5em solid groove;
+    box-shadow: #000;
+    border-radius: 5em;
+    background-image: url("background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 10px 10px 5px grey;
+}
+
+body {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.2em;
+}
+
+
+.w-25 {
+    width: 2%;
+}
+
+.w-50 {
+    width: 50%;
+}
+
+.w-75 {
+    width: 75%;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+#main-head {
+    font-size: 3em;
+    margin-bottom: 0%;
+}
+
+#main-sub-head {
+    margin-top: 0%;
+}
+
+#photo {
+    width: 10rem;
+    height: 10rem;
+    border: 1px solid #555;
+    border-radius: 50%;
+}
+
+.year-1 {
+    margin: 3em;
+}
+
+.year-2 {
+    margin: 3em;
+}
+
+p.nowrap {
+    white-space: normal;
+}
+
+.mx-5 {
+    margin-left: 5em;
+    margin-right: 5em;
+}
+
+.ml {
+    margin-left: 2em;
+}
+
+.list-item {
+    display: list-item;
+    list-style-type: disc;
+    list-style-position: inside;
+}
+
+.column {
+    float: left;
+    width: 20%;
+    padding: 10px;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.responsive {
+    width: 100%;
+    height: auto;
+}
+
+.grey,.gray{
+    color:#000!important;
+    background-color:#9e9e9e!important
+}
+
+.text-center {
+    text-align: center;
+    vertical-align: middle;
+}
+
+.progress-border {
+    background-color:#f1f1f1!important;
+    border:1px solid #ccc!important;
+    border-radius: 8px;
+    padding: 2px;
+    vertical-align: middle;
+    width: 70%;
+}
+
+.progress
+{
+    padding: 0.2rem;
+    display:inline-block;
+    border-radius: 8px;
+}
+
+.flex-center {
+    display: flex;
+    justify-content: center;
+    vertical-align: middle;
+}
+
+.text-flex-center {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+}
+
+.icon-top {
+    width: 3em;
+    height: 3em;
+    margin: 0%;
+    margin-left: 2em;
+    margin-right: 2em;
+}
+
+.icon-top:hover {
+    width: 4em;
+    height: 4em;
+}
+
+.icon-skill {
+    width: 5em; 
+    height:5em;
+    border-radius: 2em;
+}
+
+#head-title {
+    color: blue;
+    margin-left: 1em;
+    font-size: 3em;
+}
+.content{
+    font-family: Monaco, monospace;
+    margin-left: 3.2em;  
+    font-style: italic;
+}

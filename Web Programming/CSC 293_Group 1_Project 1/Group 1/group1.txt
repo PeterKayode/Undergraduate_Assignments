@@ -1,0 +1,9 @@
+Group 1 Attendance
+
+
+
+214846 | Adebowale Joseph        | Computer Science
+214915 | Salami Lateefat  	  | Computer Science
+205526 | Akinrinola Akinfolarin  | Computer Science
+208077 | Kayode Peter		  | Computer Science
+213930 | Promise Okafor          | Computer Science
